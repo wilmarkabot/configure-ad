@@ -22,12 +22,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Setup Domain Controller in Azure
+- Setup Client-1 in Azure
 
 <h2>Deployment and Configuration Steps</h2>
 
