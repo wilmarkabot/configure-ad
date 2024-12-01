@@ -40,10 +40,11 @@ Before that Create a Resourse Group named Active-Directory-Lab then we will also
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After we created our Windows Server VM let proceed to creating our Client VM. To do that 1st Go to your Microsoft Azure portal, then Click Create VM, then Choose the Windows 10 VM, and named it Client-1
+then enter username and password and attach it to the same region as the Windows Server and Virtual Network and then click create. 
 </p>
 <p>
-<img src="https://i.imgur.com/Wy1fiXf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LT7Ipwm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
