@@ -50,10 +50,11 @@ then enter username and password and attach it to the same region as the Windows
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Let change our DC-1 VM's Private IP Address from dynamic to static, and to do that go to dc-1 vm and under networking go to network settings, then click on the Network Interface/ IP Configuration,
+and then, Click ipconfig1, after that you will see a radio botton in the right corner on dynamic and static. check the static and that's it.
 </p>
 <p>
-<img src="https://i.imgur.com/Wy1fiXf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZwowkFX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
