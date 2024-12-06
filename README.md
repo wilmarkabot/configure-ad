@@ -50,7 +50,7 @@ then enter username and password and attach it to the same region as the Windows
 <br />
 
 <p>
-Let change our DC-1 VM's Private IP Address from dynamic to static, and to do that go to dc-1 vm and under networking go to network settings, then click on the Network Interface/ IP Configuration,
+Let's change our DC-1 VM's Private IP Address from dynamic to static, and to do that go to dc-1 vm and under networking go to network settings, then click on the Network Interface/ IP Configuration,
 and then, Click ipconfig1, after that you will see a radio botton in the right corner on dynamic and static. check the static and that's it.
 </p>
 <p>
@@ -60,10 +60,15 @@ and then, Click ipconfig1, after that you will see a radio botton in the right c
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After we configure DC-1 IP address from dynamic to static
+we will proceed to our client vm and change the DNS settings to DC-1 Private IP address
+because when we create a Windows VM the default Virtual Network or Vnet DNS is From Microsoft or Azures DNS Server
+so basically what where going to do is to change that and point our Client-1 DNS server to our Domain Controller Private IP address.
+and to do that go to Client-1 vm and under networking go to network settings, then click on the Network Interface/ IP Configuration,
+and then, in the left side option bar choose DNS Settings, then click Custom, then paste the private ip address of your Domain Controller.
 </p>
 <p>
-<img src="https://i.imgur.com/Wy1fiXf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aHNcnen.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
