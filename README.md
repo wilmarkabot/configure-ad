@@ -73,3 +73,22 @@ and then, in the left side option bar choose DNS Settings, then click Custom, th
 
 <br />
 
+<p>
+after that our next task is
+to log in to our Domain Controllers VM and disable the Windows Firewall to test the connectivity of the client and the domain controller so to do that go to your pc's remote desktop connection then log.in 
+to the Domain Controller VM then run wf.msc or just search windows firewall in the search bar then click on the windows firewall properties then just turn it off.
+</p>
+<p>
+<img src="https://i.imgur.com/CO1efuo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<p>
+now we will attempt to ping DC-1's private IP address from our Client VM, to do that log.in to your clients VM then open powershell ping your domain controllers private IP address.
+</p>
+<p>
+<img src="https://i.imgur.com/SaM4G29.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
