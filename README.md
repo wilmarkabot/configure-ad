@@ -95,18 +95,9 @@ now we will attempt to ping DC-1's private IP address from our Client VM, to do 
 
 <p>
 after we created the Domain Controller or the DC-1 VM and the Clients VM and configure it so that they can communicate to each other we will now proceed in installing Active Directory so what is active directory? is a directory service developed by Microsoft for Windows domain networks. It is a centralized system that manages and organizes information about network resources such as users, computers, groups, and other devices. Active Directory enables administrators to securely manage access to resources and enforce security policies across a network.
-1. go to server manager in windows start button
-2. add roles and features
-3. add to server roles: AD domain services
-4. in confirmation check if restart is required
-5. hit install
+<br />
 Next Promote DC1 as an actual domain controller, this means like were gonna install active directory in it but were gonna configure it to become a domain controller we call it New Forest in our domain.
-so here we are going to use markwheelsdomain.com so to do that.
-1. click the flag with in the upper right and click on the Promote this server to a domain controller
-2. add new forest / Root domain name: markwheelsdomain.com / next
-3 enter password / next
-4. unchecked Create DNS Delegation / next / install / then it auto restart / go back login / so because this VM is a Domain Controller now we need to login using your domains name then the user  marksdomain.com\labuser
-.
+so here we are going to use markwheelsdomain.com.
 </p>
 <p>
 <img src="https://i.imgur.com/Qf9nEam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
