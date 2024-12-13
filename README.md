@@ -105,3 +105,33 @@ so here we are going to use markwheelsdomain.com.
 </p>
 
 <br />
+
+<p>
+After Installing our Active Directory and Promoting DC1 as an actual domain controller next we will create a Domain admin user within the domain. so what we are going to do is 1st we will make Organizational Unit.<br />
+1. hit start / windows administrative tools / AD users and Computers<br />
+2. right click marksdomain.com / new / organizational unit / _EMPLOYEES<br />
+3. create another one / _ADMINS<br />
+4. click _ADMINS/ in the folders page right click and click new / click user / Firstname: Jane / Last name: Tarz / Userlog: janetarz_admin /next /password: / uncheck change pass at next logon/ never do this in real life but for this tutorial we will do it instead. check Password never expire/next/finish<br />
+This account is not admin yet! so we will add this account to the build in domain admin security group so let do that.<br />
+1. in admin right click jane account / go to properties/member of/click add/in the check names type domain admins/click check names /ok/apply/ok
+now this account is now a domain admin
+now lets logout and login again as marksdomain.com\janetarz_admin
+</p>
+<p>
+<img src="https://i.imgur.com/yGem89q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<p>
+After Making our admin user and make it an actual admin user account we will install RAS/NAT (Remote Access Server/Network Address Translation) The purpose of this is when we will make a windows 10 client it can communicate or allow it to connect with our Private Virtual Network but still be able to access the internet through the Domain Controller. so we will install it so 1st.<br />
+1. open server manager dashboard/ click add roles and features/next/ Under Server Roles: check Remote Access/ next/ Under Role Services: check Routing/ add features/ next/ install<br />
+2. After that in the Upper right click on Tools/ Routing and Remote Access/ right click DC (local)/Configure and Enable Routing and Remote Access/ next/ check NAT/ next/ check use this public interface to connect to the internet/ select the _INTERNET_/ next/ Finish / if you see the DC local color is green it is good.<br />
+So we configured it Perfectly.
+</p>
+<p>
+<img src="https://i.imgur.com/Pa5FtxY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D19jusl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
