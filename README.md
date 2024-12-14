@@ -135,3 +135,17 @@ So we configured it Perfectly.
 </p>
 
 <br />
+
+<p>
+After we install RAS/NAT (Remote Access Server/Network Address Translation) in our domain Controller, the next we are gonna do is to setup a DHCP server on our domain controller 
+So to setup our DHCP BTW DHCP means (Dynamic Host Configuration Protocol), which is a network management protocol that automatically assigns IP addresses and other communication parameters to devices on a network. So 1st <br />
+1. Server Manager Dashboard/ add roles and Features/ Under Server Roles: Select DHCP Server/ Add Features/ next/ Install <br />
+2. Server Manager Dashboard/ Tools/ DHCP/ click the Dropdown menu under our domain/ right click on the IPV4/ hit New Scope/ Scope Name: 172.16.0.100-200/ next/ IP Address Range Start IP Add: 172.16.0.100/ End: 172.16.0.200/ Lenght: 24/ next/ under Router (Defual Gateway): IP Address: 172.16.0.1/ add/ next all/ finish <br />
+3. right click the DHCP server "marksdomain.com"/ hit Autorize/ then right click markdomain.com one more time then hit refresh/
+then you can see your IPV4 and IPV6 is Up/green.
+</p>
+<p>
+<img src="https://i.imgur.com/TW4KsJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
