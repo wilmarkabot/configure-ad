@@ -149,3 +149,19 @@ then you can see your IPV4 and IPV6 is Up/green.
 </p>
 
 <br />
+
+<p>
+So we are done installing our DHCP next were gonna do is to use a Powershell Script to Setup Multiple Users in Active Directory. We Do this so that we will not create Multiple accounts manually.
+But Before we do that let go back to our Domain Controller and we have to make a configuration that makes us browse the internet from our domain controller. we are just doing this for the purpose of this Lab. so dont do this in the actual workspace. <br />
+So 1st is: <br />
+1. open server manager/ Click Configure this local server/ disable Internet Explorer(IE) Enhanced Security Configuration turn it OFF for the admin and users. <br />
+2. next is we are going to get the Powershell script and put it in the desktop/ click start and type powershell and run as admin/ in the pwrshll open file/ go to the powershell folder and open the Create Users/ in the powershell type: Set-ExecutionPolicy Unrestricted/ yes to all/ <br />
+3. type ls / cd C:\users\(your Pc name)\desktop\AD_PS-master\1_CREATE_USERS.ps1 / click play/ run <br />
+in this part all the users created. 
+</p>
+<p>
+<img src="https://i.imgur.com/D8DSiSF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
