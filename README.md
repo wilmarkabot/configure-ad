@@ -165,3 +165,15 @@ in this part all the users created.
 
 <br />
 
+<p>
+ After we Configure our Domain Controller and install the needed configurations, and creating admin and client users..
+the next were gonna do is to install our windows 10 OS in a Virtual Machine in virtual box.
+1. open VirtualBox and Create new VM Name: CLIENT1/ windows 10 64bit/ram: 4gb/ continue/ in upper tab click Advanced/ in the Shared Clipboard change it to Bidirectional and also the drag n drop/ system/ processor: 4gb/ under network: instead of NAT change it to internal Network the purpose of this is to get a DHCP address from our Domain Controller and we can do all fancy stuff we are just doing this to experience of what is like working into a corporate network <br />
+2. double click the client/ choose the OS click add and find the windows 10 OS/ and start installing/ name it CLIENT1/ dont put password just hit next/ choose privacy settings NO all/ if the CLIENT1 have no internet go back to the Domain Controller and go to Server Manager/ then Tools then DHCP then under IPV4 right click Server Options then click on Router/ in IP Address type the DC's IP Address: 172.16.0.1 then add then aplly the right click the marksdomain.com then all task then restart/ go back to your CLIENT1 then hit CMD then IPCONFIG/ if no default gateway/ in the CMD type Ipconfig renew./ try ping www.facebook.com/ ping marksdomain.com/ type in CMD hostname <br />
+3. let change our PC name/ right click the start menu/ system/ scroll down and hit rename this pc advanced/ change/ Computer name: CLIENT1/ Member of: click domain: marksdomain.com. <br />
+</p>
+<p>
+<img src="https://i.imgur.com/CMRbiGZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
