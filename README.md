@@ -193,6 +193,7 @@ the next were gonna do is to install our windows 10 OS in a Virtual Machine in v
 
 </p>
 <p>
+ <img src="https://i.imgur.com/YpqrfjJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/O9pQiVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
