@@ -201,7 +201,7 @@ This is how you configure Account lockouts using Group Policy in Active Director
 
 <p>
 This is how to open and Observe Logs in the Event Viewer
-Event Viewer is a built-in tool in Microsoft Windows operating systems that allows users to view and manage logs related to system, security, and application events. It is a crucial component for troubleshooting and monitoring the health and performance of a Windows system. This is very useful when gathering information about the logs on that PC.
+Event Viewer is a built-in tool in Microsoft Windows operating systems that allows users to view and manage logs related to system, security, and application events. It is a crucial component for troubleshooting and monitoring the health and performance of a Windows system. This is very useful when gathering information about the logs on that PC. <br />
 Common Uses: <br />
 Diagnosing system crashes or application errors. <br />
 Monitoring security events, such as failed login attempts. <br />
