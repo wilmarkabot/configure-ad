@@ -179,7 +179,7 @@ the next were gonna do is to install our windows 10 OS in a Virtual Machine in v
 <br />
 
 <p>
- This is how you configure Account lockouts using Group Policy in Active Directory.
+This is how you configure Account lockouts using Group Policy in Active Directory.
 1.right click start menu and use run <br />
 2.run gpmc.msc Group Policy Management Console <br />
 3.under mydomain.com right click default domain policy and hit edit <br />
@@ -195,6 +195,25 @@ the next were gonna do is to install our windows 10 OS in a Virtual Machine in v
 <p>
  <img src="https://i.imgur.com/YpqrfjJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/O9pQiVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<p>
+This is how to open and Observe Logs in the Event Viewer
+Event Viewer is a built-in tool in Microsoft Windows operating systems that allows users to view and manage logs related to system, security, and application events. It is a crucial component for troubleshooting and monitoring the health and performance of a Windows system. This is very useful when gathering information about the logs on that PC.
+Common Uses: <br />
+Diagnosing system crashes or application errors. <br />
+Monitoring security events, such as failed login attempts. <br />
+Tracking changes to system settings or configurations. <br />
+Identifying hardware or driver issues. <br />
+1.Press Windows + R, type eventvwr.msc, and press Enter. <br />
+OR Alternatively, search for "Event Viewer" in the Start menu. <br />
+2.You need to open event viewer as a administrator so that you can see the logs <br />
+3.When done opening the event viewer click windows logs and on the drop down option click security <br />
+</p>
+<p>
+<img src="https://i.imgur.com/CCBXmUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
