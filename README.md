@@ -177,3 +177,23 @@ the next were gonna do is to install our windows 10 OS in a Virtual Machine in v
 </p>
 
 <br />
+
+<p>
+ This is how you configure Account lockouts using Group Policy in Active Directory.
+1.right click start menu and use run <br />
+2.run gpmc.msc Group Policy Management Console <br />
+3.under mydomain.com right click default domain policy and hit edit <br />
+4.Expand the following Computer Config/Policies/Windows Settings/Security Settings/Account Policies/Account Lockout Policy. <br />
+5. Account lockout duration-30munites/Account lockout threshold-5invalid logon/Allow admin Account lockout-enabled/reset acc lock couter after-10minutes <br />
+6.in your client pc login as admin using pakboy <br />
+7.open command prompt as administrator then type gpudate /force <br />
+8.the check if the policy really been implemented in command prompt type gpresult /r <br />
+9.try to failed login using oskar valvoten and after lockout go back to domain controller to unlock the account to do that <br />
+10.find the user in the users and computer tools then search for the account then right click then under the Accounts tab check the unlock account <br />
+
+</p>
+<p>
+<img src="https://i.imgur.com/O9pQiVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
